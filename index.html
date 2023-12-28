@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Noto+Sans+TC:wght@100&family=Roboto:ital,wght@1,500&family=Rubik+Pixels&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-options nav-option">
+                        <img src="./assets/library_icon.png" alt="library_icon">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first list</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">we'll keep you updated on new episodes</p>
+                        <button class="badge">browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./assets/backward_icon.png" alt="backward_icon">
+                    <img src="./assets/forward_icon.png" alt="forward_icon" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-sharp fa-regular fa-circle-down"
+                            style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+            </div>
+
+            <h2 class="headingh2">Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card1img.jpeg" alt="#" class="card-img">
+                    <div class="card-title">Top 50 - Globle</div>
+                    <p class="card-info">Your daily updates of the most played trackes...</p>
+                </div>
+            </div>
+
+            <h2 class="headingh2">Trending now near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card2img.jpeg" alt="#" class="card-img">
+                    <div class="card-title">Top 50 - Globle</div>
+                    <p class="card-info">Your daily updates of the most played trackes...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card3img.jpeg" alt="#" class="card-img">
+                    <div class="card-title">Silent ocean</div>
+                    <p class="card-info">Your daily updates of the most played trackes...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card4img.jpeg" alt="#" class="card-img">
+                    <div class="card-title">Vijay thalapati</div>
+                    <p class="card-info">Your daily updates of the most played trackes...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card7.html.png" alt="#" class="card-img" style="height: 150px;">
+                    <div class="card-title">Summer music</div>
+                    <p class="card-info">Best of vocals deep house...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card8.png" alt="#" class="card-img" style="height: 150px;">
+                    <div class="card-title">Intro Song </div>
+                    <p class="card-info">| Alan Walker | Different World...</p>
+                </div>
+            </div>
+            <h2 class="headingh2">Featured charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card5img.jpeg" alt="#" class="card-img">
+                    <div class="card-title">Top Songs</div>
+                    <p class="card-info">Your daily updates of the most played trackes...</p>
+
+                </div>
+                <div class="card">
+                    <img src="./assets/card6img.jpeg" alt="#" class="card-img">
+                    <div class="card-title">Top Songs - India</div>
+                    <p class="card-info">Your daily updates of the most played trackes...</p>
+
+                </div>
+                <div class="card">
+                    <img src="./assets/card1img.jpeg" alt="#" class="card-img">
+                    <div class="card-title">Top 50 - Globle</div>
+                    <p class="card-info">Your daily updates of the most played trackes...</p>
+
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <img src="assets/mostleft.png" style="height: 3.5rem; width: 3.5rem; padding: 0.5rem;">
+                <div class="name">
+                    <span id="y">Yaar ka Sataya Hua Hai</span><br>
+                    <span id="b">B Praak,</span>
+                    <span id="j">Jaani,</span>
+                    <span id="n">Navazuddin Siddiqui</span>
+                </div>
+                <div class="left-icon">
+                    <i class="fa-regular fa-heart left" ></i>
+                    <i class="fa-regular fa-square left" style="padding-left: 0.5rem;"></i>
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" alt="#" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" alt="#" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" alt="#" class="player-control-icon" style="height  : 2rem;">
+                    <img src="./assets/player_icon4.png" alt="#" class="player-control-icon">
+                    <img src="./assets/player_icon5.png" alt="#" class="player-control-icon">
+
+                </div>
+                <div class="playback-bar">
+                    <span class="cur-time">00:00</span>
+                    <input type="range" class="progress-bar" max="100" min="0" step="5">
+                    <span class="tot-time">3:77</span>
+                </div>
+            </div>
+
+
+            <div class="controls">
+                <div class="control-icons">
+                    <i class="fa-regular fa-circle-play c-icons" style="opacity: 0.2;"></i>
+                    <i class="fa-sharp fa-solid fa-bars-progress c-icons " style="cursor: pointer;"></i>
+                    <i class="fa-solid fa-music c-icons"></i>
+                    <label for="img">
+                        <img src="./assets/volume.png" alt="" class="last-one" id="img">
+
+                    </label>
+                    <input type="range" class="control-range" step="1" min="0" max="100">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
